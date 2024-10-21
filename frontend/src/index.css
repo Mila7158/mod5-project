@@ -1,0 +1,10 @@
+/* TODO: Add sitewide styles */
+a {
+    text-decoration: none;
+}
+
+.spot-image {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}

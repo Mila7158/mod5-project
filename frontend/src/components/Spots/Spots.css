@@ -1,0 +1,80 @@
+.manage-spots {
+    padding: 20px;
+}
+
+.spots-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.manage-spots h2 {
+    margin-bottom: 10px;
+}
+
+.create-spot-button {
+    border: 1px solid black;
+    background-color: grey;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.spots-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.spot-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.spot-preview {
+    height: 200px;
+    overflow: hidden;
+}
+
+.manage-spots .spot-details {
+    padding: 10px 0;
+}
+
+.spot-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.spot-location {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.spot-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.manage-spots .spot-price {
+    margin-bottom: 0;
+}
+
+.spot-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage-spot-buttons {
+    justify-content: initial;
+    gap: 10px;
+}
+
+.manage-spot-buttons button {
+    background-color: grey;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    
+}

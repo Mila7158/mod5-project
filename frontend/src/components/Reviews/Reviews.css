@@ -1,0 +1,160 @@
+.reviews-section {
+    margin-top: 20px;
+}
+
+.reviews-count {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.reviewer-name {
+    font-weight: bold;
+}
+
+.review-date {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.review-text {
+    margin-top: 5px;
+}
+
+.no-reviews {
+    margin: 20px 0;
+}
+
+.post-review-button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.post-review-button:hover {
+    background-color: #c9302c;
+}
+
+.stars {
+    display: flex;
+    margin-top: 10px;
+}
+
+.star {
+    color: #ddd; /* Default star color */
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.star.filled {
+    color: #ffcc00; /* Yellow color for filled stars */
+}
+
+.review-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review-modal-overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.error-message {
+    color: red;
+}
+
+.submit-review-button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-modal-button {
+    background-color: #777;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviews-modal {
+text-align: center;
+}
+
+.stars-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.stars-wrapper .stars {
+    margin-top: 0;
+}
+
+.reviews-modal button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border: 1px solid black;
+    width: 100%;
+}
+.reviews-modal .disabled-button {
+    background-color: white;
+    color: gray;
+    cursor: not-allowed;
+}
+
+.reviews-modal .enabled-button {
+    background-color: #ff5a5f;
+    color: white;
+    border: 1px solid #ff5a5f;
+    transition: background-color 0.3s ease;
+}
+
+.enabled-button:hover {
+    background-color: darkred;
+}
+
+.star {
+    cursor: pointer;
+    color: #ccc; 
+    font-size: 24px;
+}
+
+.star.filled {
+    color: #ffcc00; 
+}
+
+.star:hover {
+    color: gold; /* Change to gold on hover */
+}
+
+.reviews-section #modal-content {
+    border: 1px solid black;
+}
+
+.reviews-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

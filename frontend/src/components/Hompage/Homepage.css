@@ -1,0 +1,84 @@
+.homepage {
+    padding: 20px;
+}
+
+.spots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.spot-tile {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.spot-tile img {
+    object-fit: cover;
+    object-position: top;
+}
+
+.spot-tile a {
+    display: block;
+    color: #000;
+}
+
+.spot-tile:hover {
+    transform: scale(1.02);
+}
+
+.spot-details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.spot-details {
+    padding: 10px;
+}
+
+.spot-details h3 {
+    font-size: 16px;
+}
+
+.spot-rating {
+    margin-left: 8px;
+    color: gold;
+}
+
+.spot-details-wrapper .spot-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.filled-star {
+    color: gold;
+}
+
+.empty-star {
+    color: lightgray;
+}
+
+.spot-price {
+    font-weight: bold;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    pointer-events: none; 
+    z-index: 1000;
+    font-size: 14px;
+    white-space: nowrap; 
+    transform: translate(-50%, -50%);
+}
+
+.avg-rating {
+    color: #000;
+}

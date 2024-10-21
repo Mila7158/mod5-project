@@ -1,0 +1,90 @@
+.create-spot-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.create-spot-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1,
+h2 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #e8f0fe;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.price-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.city-state,
+.latitude-longitude {
+    display: flex;
+    gap: 20px;
+}
+
+.city-state div,
+.latitude-longitude div {
+    flex: 1;
+}
+
+button.create-spot-button {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+button.create-spot-button:hover {
+    background-color: #e03050;
+}
+
+.error {
+    color: red;
+    margin: 0;
+}
+
+.label-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
